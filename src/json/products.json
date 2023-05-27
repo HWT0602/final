@@ -1,0 +1,134 @@
+[
+  { 
+    "id": "1",
+    "category": "精選商品",
+    "name": "Roland TD-17KVX2 電子鼓組",
+    "price": 68500,
+    "image": "/images/best product 1.jpg",
+    "description": "TD-17KVX2 將備受好評的 TD-17 V-Drums 系列提升到一個更新層次",
+    "description_long": "深受專業鼓手的信賴的可靠品質",
+    "currency": "NTD",
+    "countInStock": 1    
+  },
+  {
+    "id": "2",
+    "category": "精選商品",
+    "name": "Roland F107 88鍵 數位電鋼琴 黑色款",
+    "price": 37800,
+    "image": "/images/best product 2.jpg",
+    "description": "採用 88 鍵 PHA-4 標準鍵盤，提供傳統平台鋼琴的觸鍵和響應",
+    "description_long": "F107 纖巧、時尚且價格實惠，為您的現代居家空間帶來優越的鋼琴性能。",
+    "currency": "NTD",
+    "countInStock": 2  
+  },
+  {
+    "id": "3",
+    "category": "精選商品",
+    "name": "Keeley Halo Andy Timmons Dual Echo 簽名延遲 效果器",
+    "price": 11130,
+    "image": "/images/best product 3.jpg",
+    "description": "HALO可以作為2個延時踏板，有高達1500ms的可用延時時間--將不同的聲音保存在A和B--然後在兩者之間進行切換",
+    "description_long": "Andy Timmons 花了幾十年的時間來組合和製作你現在可以從HALO得到的聲音。",
+    "currency": "NTD",
+    "countInStock": 3  
+  },
+  {
+    "id": "4",
+    "category": "精選商品",
+    "name": "Marshall BluesBreaker 效果器",
+    "price": 7500,
+    "image": "/images/best product 4.jpg",
+    "description": "1962年的 “Bluesbreaker” 放大器的聲音成為傳奇，其流暢的音色、 豐富的溫暖和飽滿的個性賦予吉他手前所未有的表現力。",
+    "description_long": "英國手工製作",
+    "currency": "NTD",
+    "countInStock": 4  
+  },
+  {
+    "id": "5",
+    "category": "電吉他",
+    "name": "Ibanez Q547-BMM 七弦無頭電吉他 藍色",
+    "price": 37800,
+    "image": "/images/guitar 1.jpg",
+    "description": "春茶木琴身提供了豐富的中低音。",
+    "description_long": "5pc 烤楓木 / 非洲玫瑰木琴頸",
+    "currency": "NTD",
+    "countInStock": 1  
+  },
+  {
+    "id": "6",
+    "category": "電吉他",
+    "name": "Fender MIJ AERODYNE II STRAT HSS RW AWT 日廠 電吉他 白色",
+    "price": 35800,
+    "image": "/images/guitar 2.jpg",
+    "description": "經典 STRAT 琴身以及頂尖彈奏手感,輕量 Alder 木質琴身聲音特性平衡。",
+    "description_long": "日本製造經典與現代美感並存。",
+    "currency": "NTD",
+    "countInStock": 2 
+  },
+  {
+    "id": "7",
+    "category": "電吉他",
+    "name": "Ibanez RGDR4427FX 日廠 七弦電吉他 血肉果汁機代言琴",
+    "price": 69800,
+    "image": "/images/guitar 3.jpg",
+    "description": "Macassar Ebony 產生緊湊的低音和中音，高音具有強烈的攻擊力，響應迅速，延音豐富。",
+    "description_long": "創新的 Ibanez Mono-Rail 琴橋專為穩定性和延音而設計，可最大限度地減少琴弦之間的串擾。",
+    "currency": "NTD",
+    "countInStock": 3 
+  },
+  {
+    "id": "8",
+    "category": "電吉他",
+    "name": "Edwards E-LP-130CD BK 電吉他",
+    "price": 32800,
+    "image": "/images/guitar 4.jpg",
+    "description": "ESP的副廠Edwards它是使用最好的材料和技術按照嚴格的標準製造的。",
+    "description_long": "EDWARDS Platinum Edition 是通過 ESP 多年來培育的技術而製作的。",
+    "currency": "NTD",
+    "countInStock": 4
+  },  
+  {
+    "id": "9",
+    "category": "貝斯",
+    "name": "Fender MIJ Hama Okamoto Precision Bass OWT 電貝斯 濱田郁未",
+    "price": 36000,
+    "image": "/images/bass 1.jpg",
+    "description": "配上較細的JAZZ BASS琴頸與復古造型的橢圓形弦鈕、琴橋蓋與戴帽色的護板",
+    "description_long": "濱田郁未簽名款 配上較細的J BASS琴頸 復古造型的橢圓形弦鈕",
+    "currency": "NTD",
+    "countInStock": 1
+  },
+  {
+    "id": "10",
+    "category": "貝斯",
+    "name": "YAMAHA BBNE2 Nathan East 簽名款 BASS 電貝斯",
+    "price": 99000,
+    "image": "/images/bass 2.jpg",
+    "description": "採貫穿式琴頸設計，琴頸由楓木與桃花心木打造而成，再配上鑲有花紋珍珠母的黑檀木指板。 最近想換新貝斯嗎？推薦您 YAMAHA BBNE2，您絕對不能錯過它！",
+    "description_long": "Nathan East 都是靠此款 BBNE2 簽名琴五弦貝斯來傳遞他想要的音色。",
+    "currency": "NTD",
+    "countInStock": 2
+  },  
+  {
+    "id": "11",
+    "category": "貝斯",
+    "name": "Ibanez EHB1265MS-NML 電貝斯 無頭琴 摩卡色",
+    "price": 47800,
+    "image": "/images/bass 3.jpg",
+    "description": "舒適圓弧的琴身邊緣，空心琴身",
+    "description_long": "符合人體工學的貼心設計",
+    "currency": "NTD",
+    "countInStock": 3
+  },
+  {
+    "id": "12",
+    "category": "貝斯",
+    "name": "IBANEZ EHB1005MS-SFM BASS 無頭五弦電貝斯 綠色",
+    "price": 43800,
+    "image": "/images/bass 4.jpg",
+    "description": "EHB的無頭結構和經過特殊設計琴體身使演奏者無論坐下還是站立都可以保持類似的演奏姿勢。",
+    "description_long": "琴頸的烤楓木經過熱處理，可以提高穩定性，耐用性，防潮性和溫度變化的承受能力。",
+    "currency": "NTD",
+    "countInStock": 4
+  }
+]
