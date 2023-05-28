@@ -4,10 +4,12 @@ import { Provider } from "react-redux";
 import Router from './Router';
 import { persistor, store } from './redux/store';
 import { PersistGate } from 'redux-persist/integration/react';
-import './api/index.js';
+import {getProducts} from './api'
 
 //import { feedProducts } from './api';
 //feedProducts();
+
+getProducts();
 
 function App() {
 

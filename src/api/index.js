@@ -49,6 +49,4 @@ export const feedProducts = async () => {
     querySnapshot.forEach(async (product) => {
        await result.push(product.data());
     });
-    console.log({ result });
-    return result
  };
