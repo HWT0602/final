@@ -1,0 +1,186 @@
+/* 服務項目 */
+.service {
+    background-color: #D0c8be;
+    padding-top: 47px;
+    padding-bottom: 71px;
+    height: 878px;
+  }
+  
+  .news {
+    font-size: xx-large;
+    margin-left: 31vh;
+    font-weight: 1000;
+  }
+  
+  .serviceBig {
+    position: relative;
+    display: inline-block;
+    margin-left: 31vh;
+  }
+  
+  .serviceBig img {
+    width: 37rem;
+    height: 35rem;
+    position: relative;
+    opacity: 70%;
+    float: left;
+  }
+  
+  .serviceBig h1 {
+    font-family: 'Noto Sans TC', sans-serif;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    color: #d9d1c4;
+    font-size: 4rem;
+    -webkit-text-stroke: 2px #171717;
+  }
+  
+  .serviceAside {
+    float: right;
+  }
+  
+  .Aside1 {
+    display: flex;
+    width: 55vh;
+    height: 35vh;
+    opacity: 70%;
+    margin-left: -60%;
+  }
+  
+  .serviceAside1
+  {
+    position: relative;
+  }
+
+  .serviceAside1 h1 {
+    top: 5%;
+    left: -55%;
+    font-family: 'Noto Sans TC', sans-serif;
+    position: absolute;
+    color: #d9d1c4;
+    -webkit-text-stroke: 2px #171717;
+  }
+  
+  .serviceAside2
+  {
+    position: relative;
+  }
+
+  .serviceAside2 h1 {
+    top: 5%;
+    left: -55%;
+    font-family: 'Noto Sans TC', sans-serif;
+    position: absolute;
+    color: #d9d1c4;
+    -webkit-text-stroke: 2px #171717;
+  }
+  
+  .Aside2 {
+    display: flex;
+    width: 55vh;
+    height: 35vh;
+    opacity: 70%;
+    margin-top: 7.75%;
+    margin-left: -60%;
+  }
+  
+  .lookmore1 {
+    background-color: #D62721;
+    border: none;
+    color: #171717;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: bold;
+    padding: 13px 30px;
+    text-align: center;
+    border-style: solid;
+    display: block;
+    position: absolute;
+    font-size: 16px;
+    margin: 0;
+    top: 460px;
+    left: 410px;
+    transition: all .3s linear;
+  }
+  
+  .lookmore1:hover,
+  .lookmore2:hover,
+  .lookmore3:hover {
+    background-color: #171717;
+    color: #D0c8be;
+  }
+  
+  .lookmore2, .lookmore3 {
+    background-color: #D62721;
+    border: none;
+    color: #171717;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: bold;
+    padding: 13px 30px;
+    text-align: center;
+    border-style: solid;
+    display: block;
+    position: absolute;
+    font-size: 16px;
+    transition: all .3s linear;
+    margin-top: -10vh;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .serviceBig {
+      margin: 0;
+    }
+  
+    .serviceBig img {
+      margin: 0;
+      width: 100%;
+      height: 25rem;
+      display: flex;
+    }
+  
+    .serviceBig h1 {
+      left: 3vh;
+      top: 210vh;
+    }
+  
+    .Aside1{
+      margin-top: 2rem;
+    }
+    .lookmore1 {
+      margin: 0 auto;
+      left: 25rem;
+      top: 105rem;
+    }
+  
+    .serviceAside {
+      float: none;
+    }
+  
+    .serviceAside1 img,
+    .serviceAside2 img {
+      margin-left: 0;
+      width: 100%;
+      height: 25rem;
+    }
+  
+    .serviceAside1 h1 {
+      top: 275vh;
+      left: 3vh;
+      font-size: 4rem;
+    }
+  
+    .serviceAside2 h1 {
+      top: 340vh;
+      left: 3vh;
+      font-size: 4rem;
+    }
+  
+    .lookmore2 {
+      left: 25rem;
+      top: 135rem;
+    }
+    .lookmore3{
+      top: 163rem;
+      left: 25rem;
+    }
+  }

@@ -1,0 +1,45 @@
+/*最新消息輪播*/
+.roundtitle,
+.servicetitle {
+  margin-top: 10vh;
+}
+
+.news {
+  font-size: xx-large;
+  margin-left: 31vh;
+  font-weight: 1000;
+}
+
+.slider {
+  margin: 10vh 30vh;
+}
+
+.newsimg img {
+  max-width: 100%;
+  max-height: auto;
+  margin: auto 5%;
+  width: 80%;
+  height: 20rem;
+}
+
+.slick-next {
+  right: 0px;
+}
+
+.newsimg h4 {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+.newsimg h2 {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: bold;
+  margin-left: 1.5%;
+}
+
+@media screen and (max-width: 576px){
+  .slider {
+    margin: 10vh 10vh;
+  }  
+}

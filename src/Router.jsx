@@ -2,10 +2,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { ConfigProvider } from 'antd';
 import { useSelector } from "react-redux";
 import { HelmetProvider } from 'react-helmet-async'
-import Home from './pages/Home'
+import Buy from './pages/Buy'
 import Product from './pages/Product';
 import { darkTheme, lightTheme } from './theme';
 import { selectLightMode } from "./redux/colorSLice";
+import Home from './pages/Home';
+import ScrollToTop from './ScrollToTop';
 
 function Router() {
   const lightMode = useSelector(selectLightMode);
@@ -14,10 +16,12 @@ function Router() {
       <ConfigProvider theme={theme} >
         <HelmetProvider context={{}}>
           <BrowserRouter>
+          <ScrollToTop />
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="buy" element={<Buy />} />
               <Route path="products">
-                <Route path="category/:categoryName" element={<Home />} />
+                <Route path="category/:categoryName" element={<Buy />} />
                 <Route path="id/:productId" element={<Product />} />
               </Route>
             </Routes>
