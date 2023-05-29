@@ -16,3 +16,82 @@ code {
 {
   width: 100%;
 }
+
+.footer-content {
+  background-image: url("public/images/bg.jpg");
+  display: flex;
+  width: 100%;
+  color: #171717;
+  padding-top: 10vh;
+}
+
+.footer-content h5 {
+  margin-bottom: 15%;
+  margin-top: 10%;
+  display: flex;
+}
+
+.head h5 {
+  margin-top: 14%;
+}
+
+.fb,
+.yt {
+  display: flex;
+  height: auto;
+  text-decoration: none;
+  color: #171717;
+}
+
+.fb:hover,
+.yt:hover {
+  color: #D62721;
+}
+
+.fb h5,
+.yt h5 {
+  margin-left: 3%;
+  margin-bottom: 10%;
+}
+
+.fb img, .yt img {
+  margin-top: 9%;
+  height: 39px;
+}
+
+.yt img {
+  height: 40px;
+}
+
+.yt {
+  margin-top: -10%;
+}
+
+@media screen and (max-width: 576px) {
+  .footer-content {
+    padding-top: 5vh;
+  }
+
+  .footer-content h3 {
+    font-size: larger;
+  }
+
+  .footer-content h5 {
+    font-size: smaller;
+  }
+
+  .head {
+    margin-left: 5%;
+  }
+
+  .info {
+    margin-left: 5%;
+  }
+
+  .fb img, .yt img {
+    height: 30px;
+  }
+  .yt{
+    margin-top: -11%;
+  }
+}

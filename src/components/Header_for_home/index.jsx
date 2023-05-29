@@ -10,7 +10,7 @@ export default function Header_for_home ({ title, slogan }) {
     const [isOnTouch, setIsOnTouch] = useState(false);
 
     return (
-        <div className="container">
+        <div className={styles.container}>
             <div className={styles.header}>
                 <div className={styles.headerWwrap}>
                     <HamburgerMenu
@@ -18,7 +18,7 @@ export default function Header_for_home ({ title, slogan }) {
                         isOnTouch={isOnTouch}
                     />
                     
-                        <img src="../../../public/images/logo.png" width={"10%"}/>
+                        <img src="../../../public/images/logo.jpg" width={"10%"}/>
                     
                     
                         <h1 className={styles.headerTitle}>

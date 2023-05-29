@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import 'antd/dist/reset.css';
 import './App.css';
 import { Provider } from "react-redux";

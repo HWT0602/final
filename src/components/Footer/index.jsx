@@ -1,49 +1,32 @@
-import { theme } from 'antd';
-import styles from './footer.module.css';
-
 export default function Footer() {
-    const {
-        token: { colorBgFooter, colorTextFooter },
-      } = theme.useToken();
     return (
-        <div style={{
-            backgroundColor: colorBgFooter,
-            color: colorTextFooter,}}>
-            <div className="container">
-                <footer className={styles.footer}>
-                    <div className={styles.content}>
-                        <p style={{ fontWeight: 800 ,fontSize:'2rem'}}>越氣樂器行</p>
-                        <p style={{ textIndent: '1rem' }}>營業時間/Open Time:週一至週日 12:00~21:00</p>
-                        <p style={{ textIndent: '1rem' }}>地址:台北市小安區和平西路87段87號</p>
+        <div>
+            <div className="footer">
+                <div className="footer-content">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-3 head">
+                        <h3>越氣樂器行</h3>
+                        <h5>TEL : 02 5719 3946</h5>
+                        <h3>地址</h3>
+                        <h5>台北市小安區和平西路87段87號</h5>
                     </div>
-                    <div className={styles.followUS}>
-                        <p style={{ fontWeight: 800 }}>更多資訊</p>
-                        <div className={styles.iconsArea}>
-                            <a href="#">
-                                <img className={styles.icon} src="/images/nn-icon-facebook.svg" alt="facebook" />
-                            </a>
-                            <a href="#">
-                                <img className={styles.icon} src="/images/nn-icon-instagram.svg" alt="instagram" />
-                            </a>
-                            <a href="#">
-                                <img className={styles.icon} src="/images/nn-icon-tiktok.svg" alt="tiktok" />
-                            </a>
-                        </div>
+                    <div className="col-md-4">
+                        <h3>營業時間/Open Time</h3>
+                        <h5>週一至週日 12:00-21:00<br />Mon. - Sunday, 12pm - 9pm</h5>
                     </div>
-                    
-                    <div className={styles.contactUS}>
-                        <p style={{ fontWeight: 800 }}>聯絡我們</p>
-                        <p>02 5719 3946</p>
+                    <div className="col-md-3 info">
+                        <h3>更多資訊</h3>
+                        <a className="fb" href="#">
+                            <img src="public/images/fb.jpg" alt="" />
+                            <h5>Facebook粉絲專頁</h5>
+                        </a>
+                        <a className="yt" href="#">
+                            <img src="public/images/yt.jpg" alt="" />
+                            <h5>Youtube頻道</h5>
+                        </a>
                     </div>
-                    
-                    <p className={styles.copyRight}>
-                        © 2006 - 2023 Copyright angry music
-                    </p>
-                    
-                </footer>                
+                </div>
             </div>
-
         </div>
-
     );
 }

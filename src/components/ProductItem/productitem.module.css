@@ -6,6 +6,7 @@
 
 .info {
    padding: 1.2rem;
+   
 }
 
 .category {
@@ -15,6 +16,7 @@
 
 .name {
    margin-bottom: 0.5rem;
+   font-size: 1.2rem;
 }
 
 .description {
@@ -31,3 +33,4 @@
 .textGray {
    opacity: 0.6;
 }
+

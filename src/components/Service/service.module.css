@@ -1,0 +1,87 @@
+/* 服務項目 */
+.service{
+  width: auto;
+  height: auto;
+}
+.shop{
+  background-image: url("public/images/main.jpg");
+  background-position:center;
+  background-size: cover;
+}
+.shop h1{
+  font-weight: bolder;
+  color:#121212;
+  margin-top: -500px;
+  padding-top: 5%;
+  padding-left: 60%;
+}
+.shop h3{
+  color:#121212;
+  padding-top: 5%;
+  padding-left: 60%;
+}
+.seeMore1{
+  background-image: url("public/images/bg.jpg");
+  padding: 20px 50px;
+  border-radius: 50px;
+  margin-top: 100px;
+  margin-left: 85%;
+  margin-bottom: 50px;
+}
+.classroom {
+  background-image: url("public/images/bg.jpg");
+}
+.classroom h1{
+  font-weight: bolder;
+  padding-top: 5%;
+  margin-left: 10%;
+}
+.classroom h3{
+  padding-top: 5%;
+  margin-left: 10%;
+}
+.seeMore2{
+  background-image: url("public/images/bg.jpg");
+  padding: 20px 50px;
+  border-radius: 50px;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+.classroom img{
+  height: 80%;
+  margin-left: 50%;
+  margin-top: -30%;
+  border-radius: 25%;
+  padding-bottom: 5%;
+}
+.trainroom{
+  background-image: url("public/images/bg.jpg");
+}
+.trainroom h1{
+  font-weight: bolder;
+  color:#121212;
+  padding-top: 5%;
+  padding-left: 60%;
+}
+.trainroom h3{
+  color:#121212;
+  padding-top: 5%;
+  padding-left: 60%;
+}
+.seeMore3{
+  background-image: url("public/images/bg.jpg");
+  padding: 20px 50px;
+  border-radius: 50px;
+  margin-top: 100px;
+  margin-left: 85%;
+  margin-bottom: 50px;
+}
+.trainroom img{
+  width: 720px;
+  height: 80%;
+  margin-top: -30%;
+  border-radius: 25%;
+  padding-bottom: 5%;
+  margin-left: 5%;
+}
